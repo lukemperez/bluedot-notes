@@ -1,4 +1,5 @@
-PDFS := $(patsubst %.md,%.md.pdf,$(wildcard *.md))
+SRC := $(filter-out README.md, $(wildcard *.md))
+PDFS := $(patsubst %.md,%.md.pdf,$(SRC))
 
 PREFIX = $(HOME)/.pandoc/md
 
