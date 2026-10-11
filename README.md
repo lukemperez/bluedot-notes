@@ -1,8 +1,7 @@
 ---
-subtitle: Reading notes from AGI Safety Course
+title: Reading notes from AGI Safety Course
 shortTitle: Blue Dot Notes
 date: October 2026
-
 ...
 
 ## Introduction 
