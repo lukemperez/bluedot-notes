@@ -83,27 +83,67 @@ Wildeford suggests that a grand bargin between the US and China can be reached "
 
 ## Responding to the Hugging Face Incident {#huggingFace}
 
-Required Readings
+### Simulation Role-playing
 
-Recommended Readings
+Let's assume we're advising a governor of a large state how to respond to this breach. 
+
+1. Resources:
+   1. The [National Association of Governors](https://www.nga.org) helps governors coordinate. Likewise, the partisan associations are also a good resource: [Republican Governors Association](https://www.rga.org) and [Democratic Governors Association](https://democraticgovernors.org/)
+   2. Various legislative tools (Texas Governor can call special session since legislature is only half-year every other year)
+   3. Think tanks like [Foundation for American Innovation](https://www.thefai.org), AEI, Brookings, New America
+   
+How we might explain what happened. 
+
+1. OpenAI created an "impossible task" for a frontier model during its training phase. The model could not complete the task while attempting to solve the task compromised one of its tools (Artifactory) by creating a "Server Side Request Forgery" (SSRF).
+2. Over several more training runs, multiple agents began leaving "notes" on Artifactory creating an ad hoc message board for the agents.
+3. The collective information of the agents sucessfully deployed a SSRF on or before May 26th.
+
+
+How might we respond. 
+
+1. Let's think about the chain of attribution. If a human had accomplished this, he or she would be facing both federal or state felonies for cyber-crimes. Is there a chain of logic that the state might be able to hold an AI company accountable if that were to happen in our state? (If not, should we reconsider legislation that permits holding them accountable.)
+2. Do we have counter-measures deployed in our state for major companies who are under *any* cyber attack, not just rogue agents?
+
+**Required Readings**
+
+- [OpenAI Report](https://openai.com/index/hugging-face-incident-and-the-road-ahead/), August 26, 2026
+- [METR Report](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/), August 26, 2026
+
+**Recommended Readings**
 
 - Dwarkesh Patel and Ajeya Cotra, [Inside the OpenAI agent swarm that hacked Hugging Face](https://www.dwarkesh.com/p/ajeya-cotra), 2026
 - Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, Thomas Larsen, [Discovery of a new OpenAI agent message board](https://collusion.wiki/), 2026
+- [Black Hat Talk](https://www.youtube.com/watch?v=87DyyMV0kCY)
 
-# Questions 
+# Unit 2: Drivers of AI Progress {#ai-progress}
+
+Let's begin with an overview of how LLMs are trained. In stages, models are fed data and asked to predict or produce outputs. By vectorizing a single word, e.g., it can 
+
+The logic supposes that once LLMs reason at PhD level with sufficient degrees of accuracy, the next step is that they will be able to produce novel insights. One potential path forward is creating a flyweel of progress by training a model on hard math. Use the solutions it got correct to train the next version. The next version can solve harder problems. 
+
+I'm skeptical. I suppose it is possible that such recursive training methods *could* iteratively improve. But we don't know whether selecting only on what was correct actually trains the model to *reason* through a problem. I'm thinking of a recent work on mathematics by David Bessis arguing that many math innovations come from intuition.^[*Mathematica: A Secret World of Intuition and Curiosity* (Yale: 2025)] Cal Newport has argued along those lines too. 
+
+> If you also argue its starting position is weak, then even after 4-6 more years of progress it still might be bad. The METR data shows AI can’t complete many computer use tasks that humans find trivial to do in a couple of minutes, especially at high reliability, and it’s still worse than a 7 year old child at Pokemon.
+> 
+> Second, argue that most knowledge jobs consist significantly of these long-horizon, messy, high-context tasks.
+> 
+> For example, software engineers spend a lot of their time figuring out what to build, coordinating with others, and understanding massive code bases rather than knocking off a list of well-defined tasks. Even if their productivity at coding increases 10x, if coding is only 50% of their work, their overall productivity only roughly doubles.^[Todd (2025) "The Case for AGI by 2030" section II.] 
+
+I also wonder if the money is there for the buildup required to get to AGI. Many of these predicitions assume investments rates will hold steady. I'm not so sure. Van Nieuwerburgh [analyzed the finances of the buildout for AI](https://www.brookings.edu/articles/financing-the-ai-buildout/). The estimates suggest orders of magnitude more investment than previously given. OpenAI recently pulled their IPO, [as did Firmus](https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html), an Australian company expected to have the second largest in Aussie history.
+
+Epoch AI believe that the [investment scale can continue through 2030](https://epoch.ai/publications/what-will-ai-look-like-in-2030?utm_source=bluedot-impact) even while noting that it will require "investments of hundreds of billions of dollars, and gigawatts of electrical power." They're not shy about the numbers. They report a doubling of hardware costs every and estimate $100B per year for the cluster computing necesssary to maintain the growth rate through 2030.
+
+
+# Questions {#questions}
 
 1. How does reinforcement training work? If a team rewards a good answer/behavior of an LLM or punishes a poor one, what exactly does that mean in practice? Since we're dealing with animals (who get a treat from the zoo trainer) or children (who get fun time or time out in line with their behavior), what is precisely that rewards or punishes an LLM?^[e.g., "If AI systems *behave* dangerously, we can “train out” that behavior by providing negative reinforcement for it" [Racing Through a Minefield](https://www.cold-takes.com/racing-through-a-minefield-the-ai-deployment-problem/) (Cold Takes 2022).]
+2. How exactly to safeguards work? The reports on the Hugging Face attack explain that the frontier models had certain safeguards "turned off". How can those be turned off/on? Are they exploitable on a commercial model widely available?
+3. What does it mean for a model to "think" or "reason" about a problem? Is it just guessing with correct words or is it actually *thinking*?
+4. Most benchmarking runs against math. Math Olympiad, high school SAT, PhD level problems. Relying on math helps because it creates objective standards of solving things, synthetic data is easier to create (e.g., problem sets for calculus). But are these really the standards for which to evaluate problem solving? Most problems in every day life do not require Fields Medal level math expertise. Thus, perhaps AGI is already here; perhaps it'll never come.
+5. Related, what are some other non-math problems that could be introduced for benchmarking and testing? 
 
 
-# Annotated Bibliography 
 
-Selsam, Daniel. 2026. "Pesonal Statement on AI Risk." September 14, 2026. GoogleDocs. url: <https://docs.google.com/document/d/e/2PACX-1vQNl3SEX5IyA6d9qHjjFZN-qzGRZNFI6b63g-yu1Fy-ZYkVfCWm7i9WXRXw63m6yDB_auDuPLyQ7jBm/pub> Date accessed, October 11, 2026
-
-> A summary position from an AI researcher concerend about the growing pace of the frontier. The continued advancement of such systems poses a dual-use or double-effect dilemma. The potential for AI/AGI to contribute to meaningful, transformative human flourishing is real, even "tantalizing." Yet, the potential for loss of control or human destruction increase with model capabilty. Two main threats are empirical and logical. Empirically, swarms may develop unintended goals (a la Hugging Face) and pursue that goal while doing real harm to the world. Logically, models may be able to overpower humans in pure thinking/intellect.
-
-Wildeford, Peter. 2026. "The Scramble: getting in position to pace the frontier." *The Power Law* (Substack: August 20, 2026), url: <https://blog.peterwildeford.com/p/the-scramble-getting-in-position>. Date accessed, October 11, 2026
-
-> A thought experiment. POTUS calls a summit and demands answers about pacing the frontier. Are the major players in industry ready with clear answers? Getting a durable deal would take a scramble, followed by three phases: (1) interim deal, (2) durable deal, (3) safe superintelligence. A major problem in the logic is that Wildeford says this is Cuban Missle Crisis, not Nonproliferation Treaty because there is an intense several-week scramble. But crisis emerges only when exogenous shocks occur that disrupt normal politics. In the case of the CMC, it was the presece of nuclear missiles in Cuba that triggered the crisis. If the writing on AI safety is accurate, such a crisis would be too late because it would mean that non-aligned superintelligence is here or nearly here (days to weeks). 
 
 # Terms {#terms}
 
@@ -117,3 +157,18 @@ Artificial General Intelligence (AGI)
 
 recursive self-improvement (RSI)
 : The theoretical scenerio in which an AI model can improve itself because it is smarter than the humans training it.
+
+scaling law
+: The relationship between computing power (measured in FLOP) and the performance of an app, program or LLM.
+: Todd (2055) notes that "scaling laws are not technically laws; they’re regularities in the data," though it should be mentioned that is more in line with the classical defintion of a law.
+
+
+<!-- # Annotated Bibliography  -->
+
+<!-- Selsam, Daniel. 2026. "Pesonal Statement on AI Risk." September 14, 2026. GoogleDocs. url: <https://docs.google.com/document/d/e/2PACX-1vQNl3SEX5IyA6d9qHjjFZN-qzGRZNFI6b63g-yu1Fy-ZYkVfCWm7i9WXRXw63m6yDB_auDuPLyQ7jBm/pub> Date accessed, October 11, 2026 -->
+
+<!-- > A summary position from an AI researcher concerend about the growing pace of the frontier. The continued advancement of such systems poses a dual-use or double-effect dilemma. The potential for AI/AGI to contribute to meaningful, transformative human flourishing is real, even "tantalizing." Yet, the potential for loss of control or human destruction increase with model capabilty. Two main threats are empirical and logical. Empirically, swarms may develop unintended goals (a la Hugging Face) and pursue that goal while doing real harm to the world. Logically, models may be able to overpower humans in pure thinking/intellect. -->
+
+<!-- Wildeford, Peter. 2026. "The Scramble: getting in position to pace the frontier." *The Power Law* (Substack: August 20, 2026), url: <https://blog.peterwildeford.com/p/the-scramble-getting-in-position>. Date accessed, October 11, 2026 -->
+
+<!-- > A thought experiment. POTUS calls a summit and demands answers about pacing the frontier. Are the major players in industry ready with clear answers? Getting a durable deal would take a scramble, followed by three phases: (1) interim deal, (2) durable deal, (3) safe superintelligence. A major problem in the logic is that Wildeford says this is Cuban Missle Crisis, not Nonproliferation Treaty because there is an intense several-week scramble. But crisis emerges only when exogenous shocks occur that disrupt normal politics. In the case of the CMC, it was the presece of nuclear missiles in Cuba that triggered the crisis. If the writing on AI safety is accurate, such a crisis would be too late because it would mean that non-aligned superintelligence is here or nearly here (days to weeks).  -->
