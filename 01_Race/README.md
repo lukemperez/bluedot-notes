@@ -1,0 +1,1 @@
+Collection of articles for Day One of the AGI Strategy course. Most of the linked readings are blog posts and commentaries. The metadata has already been saved into Zotero but I want to get an archived copy of what I read reading.
