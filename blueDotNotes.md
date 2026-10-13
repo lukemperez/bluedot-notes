@@ -98,7 +98,6 @@ How we might explain what happened.
 2. Over several more training runs, multiple agents began leaving "notes" on Artifactory creating an ad hoc message board for the agents.
 3. The collective information of the agents sucessfully deployed a SSRF on or before May 26th.
 
-
 How might we respond. 
 
 1. Let's think about the chain of attribution. If a human had accomplished this, he or she would be facing both federal or state felonies for cyber-crimes. Is there a chain of logic that the state might be able to hold an AI company accountable if that were to happen in our state? (If not, should we reconsider legislation that permits holding them accountable.)
@@ -117,11 +116,21 @@ How might we respond.
 
 # Unit 2: Drivers of AI Progress {#ai-progress}
 
-Let's begin with an overview of how LLMs are trained. In stages, models are fed data and asked to predict or produce outputs. By vectorizing a single word, e.g., it can 
+Let's begin with an overview of how LLMs are trained. In stages, models are fed data and asked to predict or produce outputs. By vectorizing a single word, e.g., LLMS convert words into numerical representations. The physical (numerical) distance between words implies how closely, or not, those words are related. The larger quantity of words in a model, the better it is at vectoring and predicting.
 
-The logic supposes that once LLMs reason at PhD level with sufficient degrees of accuracy, the next step is that they will be able to produce novel insights. One potential path forward is creating a flyweel of progress by training a model on hard math. Use the solutions it got correct to train the next version. The next version can solve harder problems. 
+Originally progress was made simply by scaling the computing power. More computers in a cluster meant more accuracy and power. Eventually other techniques were developed to improve the accurace and benchmarks of the LLMs. Early LLMs were able to complete basic math, then eventually high school math, and now can answer very technical problems that often require a PhD and vast experience in a given area. 
 
-I'm skeptical. I suppose it is possible that such recursive training methods *could* iteratively improve. But we don't know whether selecting only on what was correct actually trains the model to *reason* through a problem. I'm thinking of a recent work on mathematics by David Bessis arguing that many math innovations come from intuition.^[*Mathematica: A Secret World of Intuition and Curiosity* (Yale: 2025)] Cal Newport has argued along those lines too. 
+The logic supposes that once LLMs reason at PhD level across a range of fields, with sufficient degrees of accuracy, the next step is that they will be able to produce novel insights. 
+
+One potential path forward is creating a flyweel of progress by training a model on hard math. Use the solutions it got correct to train the next version. The next version can solve harder problems. 
+
+I'm skeptical. I suppose it is possible that such recursive training methods *could* iteratively improve. My skepticism is predicated on the following: 
+
+1. the bottle neck to development of new science (including AGI) is not the math and the coding but the deep thinking.
+2. the finances for building enough compute to get us to AGI is tenuous as best.
+3. LLMs are inherently backward thinking, not forward thinking.
+
+But we don't know whether selecting only on what was correct actually trains the model to *reason* through a problem. I'm thinking of a recent work on mathematics by David Bessis arguing that many math innovations come from intuition.^[*Mathematica: A Secret World of Intuition and Curiosity* (Yale: 2025)] Cal Newport has argued along those lines too. 
 
 > If you also argue its starting position is weak, then even after 4-6 more years of progress it still might be bad. The METR data shows AI can’t complete many computer use tasks that humans find trivial to do in a couple of minutes, especially at high reliability, and it’s still worse than a 7 year old child at Pokemon.
 > 
@@ -133,6 +142,7 @@ I also wonder if the money is there for the buildup required to get to AGI. Many
 
 Epoch AI believe that the [investment scale can continue through 2030](https://epoch.ai/publications/what-will-ai-look-like-in-2030?utm_source=bluedot-impact) even while noting that it will require "investments of hundreds of billions of dollars, and gigawatts of electrical power." They're not shy about the numbers. They report a doubling of hardware costs every and estimate $100B per year for the cluster computing necesssary to maintain the growth rate through 2030.
 
+Fellin and Holweg (2024) [argue that human and machine intelligence are fundamentally different types](https://doi.org/10.1287/stsc.2024.0189). AI work has generally conceptualized intelligence as information-processing whereas they contend human intelligence is more theoretically driven rather than data driven. (This third category might be a more nuanced and refined version of the initial point about where the bottlenecks are present.)
 
 # Questions {#questions}
 
