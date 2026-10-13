@@ -146,6 +146,40 @@ Epoch AI believe that the [investment scale can continue through 2030](https://e
 
 Fellin and Holweg (2024) [argue that human and machine intelligence are fundamentally different types](https://doi.org/10.1287/stsc.2024.0189). AI work has generally conceptualized intelligence as information-processing whereas they contend human intelligence is more theoretically driven rather than data driven. (This third category might be a more nuanced and refined version of the initial point about where the bottlenecks are present.)
 
+# Unit 3: Pathways to Harm {#harm}
+
+> **How could increasingly capable AI systems cause catastrophic harm, and what would have to be true for those pathways to occur?**
+
+## Loss of Control (LoC) {#loc}
+
+The argument, in brief. 
+: Begin at the end, assuming a superintelligent AI has arrived. It's compute power is roughly equivalent to every human on earth.
+: If properly aligned with human values, the AI could advance human benefit by orders of magnitude faster and with orders of magnitude greater effects, than all the humans on earth combined.
+: Conversely, a misaligned AI could therefore defeat humans at a collective task. 
+: Therefore, a misaligned AI could destroy human civilization without much trouble.
+
+When discussing Loss of Control (Loc), much turns on what we mean when discussing it. Karnofsky correctly points out that a reader who doesn't see LoC in the way he does is likely to end up miscommunicating with him about the dangers. Across a range of scholarship, "... existing definitions of LoC in literature differ across a range of axes and could be interpreted to cover different spectra of outcomes" (Stix et al. 2025). One possible solution from Stix and colleagues (2025) maps a range of scenarios from *Deviation* to *Bounded LoC* and *Strict LoC*. Strict LoC captures the scenario described by Karnofsky and others were as Deviation means an event that causes harm but is relatively easy to contain.^[According to this definition, the OpenAI-Hugging Face attack would certainly qualify.] Bounded LoC sits somewhere in between, with an event that requires significant resources to contain. 
+
+LoC could also capture both scale and severity (Stix et al. 2025). A wide-spread outbreak that is minor at each localized source might still classify as a Bounded LoC because the collective cost of money and resources to contain it are significant. LoC arises from manifold causes, not strictly a runway AI that is misaligned. Alignment remains a crucial factor in preventing LoC since it raises the threshold for adversarial misuse or other forms of deviations that are unintended even if Strict LoC remains speculation or hypothetical in the early stage of AI development.
+
+(@1) No consensus on capabilities
+(@2) Consensus on capibilities but no consensus on sub-cabilities
+(@3) Consensus on both but lacking precise thresholds on when to act.
+
+- (@3) is the most critical here because detection tradesoff monitoring for cost.^[Police Patrols versus Fire Alarms]
+- DAP Framework (Deployment Environment, Affordances, Permissions) <!-- Follow up on this. -->
+
+How models might come to pursue goals that are misaligned is currently a mystery. Evidence suggests they do (Cotra 2021). We have the agency problem in code form. Classical economics defines the agency problem around the problem of incentives. An agent, hired by a principle, has motivations that cause friction or may be opposed to the interests of the principle. One reason this emerges is that information asymmetries exist between the parties, and the contracts cannot ever be fully complete. This second reason seems to matter a great deal: a contract cannot specify everything someone must do in a job (hence "other duties as assigned" in most job ads). But those can be negotiated and errors can be sorted out through trial and error. It is unclear how that could happen with an off-the-shelf AI today let alone with an advanced AI.
+
+Cotra (2021) unpacks this problem with a hypothetical in which an 8-year-old must hire a guardian for himself. Three categories of applicants are in the pool: Saints, Sycophants, and Schemers. An 8-year-old is unlikely to know the right work test to filter and sort for Saints. As such he is likely to get Sycophants and Schemers in his staff.
+
+Because we do not fully understand how ML/AI models get good scores, we do not know if they are creating dangerous goals or methods in their testing. A machine could very well create an "intention" that is malign by human standards. 
+
+**Required Readings**
+
+- Holden Karnofsky [AI Could Defeat All of Us Combined](https://www.cold-takes.com/ai-could-defeat-all-of-us-combined/)
+- Charlott Stix, Annika Hallensleben, Alejandro Ortega, and Matteo Pistillo, [The Loss of Control Playbook](https://lossofcontrol.ai/)
+
 # Questions {#questions}
 
 1. How does reinforcement training work? If a team rewards a good answer/behavior of an LLM or punishes a poor one, what exactly does that mean in practice? Since we're dealing with animals (who get a treat from the zoo trainer) or children (who get fun time or time out in line with their behavior), what is precisely that rewards or punishes an LLM?^[e.g., "If AI systems *behave* dangerously, we can “train out” that behavior by providing negative reinforcement for it" [Racing Through a Minefield](https://www.cold-takes.com/racing-through-a-minefield-the-ai-deployment-problem/) (Cold Takes 2022).]
@@ -173,6 +207,9 @@ recursive self-improvement (RSI)
 scaling law
 : The relationship between computing power (measured in FLOP) and the performance of an app, program or LLM.
 : Todd (2055) notes that "scaling laws are not technically laws; they’re regularities in the data," though it should be mentioned that is more in line with the classical defintion of a law.
+
+stochastic gradient descent (SGD)
+: [An interative method for optimizing an objective function with suitable smoothness](https://en.wikipedia.org/wiki/Stochastic_gradient_descent). 
 
 
 <!-- # Annotated Bibliography  -->
