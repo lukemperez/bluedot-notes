@@ -5,6 +5,8 @@ author: 'Luke M. Perez'
 
 colorlinks: true
 linkcolor: blue
+geometry: margin=1in
+fontsize: 12pt
 ...
 
 # Introduction {#intro}
