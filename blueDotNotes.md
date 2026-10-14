@@ -180,6 +180,26 @@ Because we do not fully understand how ML/AI models get good scores, we do not k
 - Holden Karnofsky [AI Could Defeat All of Us Combined](https://www.cold-takes.com/ai-could-defeat-all-of-us-combined/)
 - Charlott Stix, Annika Hallensleben, Alejandro Ortega, and Matteo Pistillo, [The Loss of Control Playbook](https://lossofcontrol.ai/)
 
+## Authoritarianism 
+
+AI lowers the barrier to authoritarianism. Concentrated power and information asymmetries tilts the balance of power in favor of the few against the many. One plausible pathway includes a gradual concentration of AI power inside the United States to the point at which the firm is operating as a de facto government. 
+
+Back of the napkin idea here but a federalist model might be worth looking at. The Founders designed the US Constitution to devolve power between the federal (read: national) government and the states, as well as split the main lines of authority between the various branches of government. Just as Madison reminded his readers that "enlightened statesmen will not always be at the helm" (*Federalist 10*), so too will enlightened actors not be at the helm of AI development. The structure of the constitution creates friction which prevents and slows down concentrations of power *and* creates incentives for actors within those institutions from ceding power. 
+
+**Required Readings**
+
+- Rose Hadshar, [Extreme power concentration](https://80000hours.org/problem-profiles/extreme-power-concentration/), (80,000 Hours: October 2025)
+
+**Recommended Readings**
+
+- Hal Brands, ed. [Geopolitics of AI: Power, Conflict, and the Future of Global Order](https://press.jhu.edu/books/title/54331/geopolitics-ai), (Johns Hopkins University Press: 2026)
+
+## Bioweapons 
+
+**Recommended Readings**
+
+- Nidhi Kalra, Forrest W. Crawford, Matthew L. Nicotra, Scott Behmer, Josh Dettman, Gerald L. Epstein, Edward Geist, David Glickstein, Graham Griffin, Krista Langeland. [Preventing the Creation of Mirror Life](https://www.rand.org/pubs/research_briefs/RBA4335-1.html), (RAND: September 16, 2026)
+
 # Questions {#questions}
 
 1. How does reinforcement training work? If a team rewards a good answer/behavior of an LLM or punishes a poor one, what exactly does that mean in practice? Since we're dealing with animals (who get a treat from the zoo trainer) or children (who get fun time or time out in line with their behavior), what is precisely that rewards or punishes an LLM?^[e.g., "If AI systems *behave* dangerously, we can “train out” that behavior by providing negative reinforcement for it" [Racing Through a Minefield](https://www.cold-takes.com/racing-through-a-minefield-the-ai-deployment-problem/) (Cold Takes 2022).]
@@ -187,9 +207,6 @@ Because we do not fully understand how ML/AI models get good scores, we do not k
 3. What does it mean for a model to "think" or "reason" about a problem? Is it just guessing with correct words or is it actually *thinking*?
 4. Most benchmarking runs against math. Math Olympiad, high school SAT, PhD level problems. Relying on math helps because it creates objective standards of solving things, synthetic data is easier to create (e.g., problem sets for calculus). But are these really the standards for which to evaluate problem solving? Most problems in every day life do not require Fields Medal level math expertise. Thus, perhaps AGI is already here; perhaps it'll never come.
 5. Related, what are some other non-math problems that could be introduced for benchmarking and testing? 
-
-
-
 
 # Terms {#terms}
 
