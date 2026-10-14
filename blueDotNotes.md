@@ -200,6 +200,16 @@ Back of the napkin idea here but a federalist model might be worth looking at. T
 
 - Nidhi Kalra, Forrest W. Crawford, Matthew L. Nicotra, Scott Behmer, Josh Dettman, Gerald L. Epstein, Edward Geist, David Glickstein, Graham Griffin, Krista Langeland. [Preventing the Creation of Mirror Life](https://www.rand.org/pubs/research_briefs/RBA4335-1.html), (RAND: September 16, 2026)
 
+# Unit 4: Strategies for the Transition to AGI
+
+**Required Readings**
+
+- Rohin Shah et al. [An Approach to Technical AGI Safety adn Security](), (Google DeepMind: 2025), pp 70--78 (\S 6.1 in full)
+- Evan Hubinger, [Alignment remains a hard, unsolved problem](https://www.lesswrong.com/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem), November 27, 2025
+- Anthropic, [Teaching Claude Why](https://www.anthropic.com/research/teaching-claude-why), May 8, 2026
+
+
+
 # Questions {#questions}
 
 1. How does reinforcement training work? If a team rewards a good answer/behavior of an LLM or punishes a poor one, what exactly does that mean in practice? Since we're dealing with animals (who get a treat from the zoo trainer) or children (who get fun time or time out in line with their behavior), what is precisely that rewards or punishes an LLM?^[e.g., "If AI systems *behave* dangerously, we can “train out” that behavior by providing negative reinforcement for it" [Racing Through a Minefield](https://www.cold-takes.com/racing-through-a-minefield-the-ai-deployment-problem/) (Cold Takes 2022).]
