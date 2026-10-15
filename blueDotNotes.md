@@ -180,7 +180,7 @@ Because we do not fully understand how ML/AI models get good scores, we do not k
 - Holden Karnofsky [AI Could Defeat All of Us Combined](https://www.cold-takes.com/ai-could-defeat-all-of-us-combined/)
 - Charlott Stix, Annika Hallensleben, Alejandro Ortega, and Matteo Pistillo, [The Loss of Control Playbook](https://lossofcontrol.ai/)
 
-## Authoritarianism 
+## Authoritarianism {#sec:3-authoritarian}
 
 AI lowers the barrier to authoritarianism. Concentrated power and information asymmetries tilts the balance of power in favor of the few against the many. One plausible pathway includes a gradual concentration of AI power inside the United States to the point at which the firm is operating as a de facto government. 
 
@@ -204,22 +204,22 @@ Back of the napkin idea here but a federalist model might be worth looking at. T
 
 Overight is a technical problem. The greater the complexity and size of the LLM created, the more difficult it becomes for humans to monitor and evaluate. Consisder the form of misalignment from specification gaming, viz., a flawed reward signal that a developer did not anticipate (Shah et al. 2025, 71). Traditional RLHF has no way to improve itself at larger scales of LLM development.<!-- Not only the models themselves are becoming bigger but the types of tasks that they do grow in scope. --> An algorithmic process might be able to check the work of the LLM and flag any misaligned responses.^[See also, Yuntao Bai, et al., "Constitutional AI," arXiv (2022) <https://arxiv.org/pdf/2212.08073v1>.] Some other method that could improve upon RLHF include debate (having LLMs crituque each other) and human-AI collaboration in training new LLMs.
 
-Alignment will remain an unsolvable problem. Beyond scaling, another difficulty includes the problem of evaluating models that are smarter than humans. WHere we map alignment difficult is a topic of some debate. Hubinger (2025) suggests that Chris Olah's diagram (@fig:olah) gets close
+Alignment will remain an unsolvable problem. Beyond scaling, another difficulty includes the problem of evaluating models that are smarter than humans. WHere we map alignment difficult is a topic of some debate. Hubinger (2025) suggests that Chris Olah's diagram (@fig:olah) gets close. Developers want AI to do the right thing for the right reasons (Hubinger 2025, Anthropic 2026). 
 
 ![Chris Olah's mental model for alignment difficulty](04_Transition/images/olah.png){#fig:olah}
 
-<!-- Consider various possible timelines in which AGI advances, including the possible choices we could make along the way.  -->
+As I mentioned in [the comments about the Founding (Unit 3 - authoritarianism)](sec:3-authoritarian), however, I wonder if the why problem can be solved. Human nature is deeply flawed and human agency often fails. We (both as groups and as individuals) very often do the wrong thing *even when we know its wrong*. Even we bracket malice, anger, fear and the like, mamy moral failings can be traced to banal causes like peer presure, ignorance, conflicts of interests, and perverse incentives. Restated: the optimal rate of misalignment is greater than zero. The real goal might be to get that rate as low as possible and then design protocols and infrastructure to mitigate harm when (not if) LLMs enage in misaligned behavior.
 
+Moreover, we need better definitions of human values. Globally, what people thing counts as moral varies widely. Even within the same country, values shift and develop organically around a handful of principles but with measurable variance.^[see, e.g., Johnathan Haidt, *The Righteous Mind: Why Good People are Divided by Politics and Religion* (Vintage: 2012)] 
 
-
+To the main, the transition to AGI involves various timelines and social choices
 
 **Required Readings**
 
 - Rohin Shah et al. [An Approach to Technical AGI Safety adn Security](), (Google DeepMind: 2025), pp 70--78 (\S 6.1 in full)
 - Evan Hubinger, [Alignment remains a hard, unsolved problem](https://www.lesswrong.com/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem), November 27, 2025
 - Anthropic, [Teaching Claude Why](https://www.anthropic.com/research/teaching-claude-why), May 8, 2026
-
-
+- Larsen et al. [AI 204: Plan A](https://ai-2040.com/), 2026
 
 # Questions {#questions}
 
