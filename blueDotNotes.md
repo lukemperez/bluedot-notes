@@ -202,6 +202,17 @@ Back of the napkin idea here but a federalist model might be worth looking at. T
 
 # Unit 4: Strategies for the Transition to AGI
 
+Overight is a technical problem. The greater the complexity and size of the LLM created, the more difficult it becomes for humans to monitor and evaluate. Consisder the form of misalignment from specification gaming, viz., a flawed reward signal that a developer did not anticipate (Shah et al. 2025, 71). Traditional RLHF has no way to improve itself at larger scales of LLM development.<!-- Not only the models themselves are becoming bigger but the types of tasks that they do grow in scope. --> An algorithmic process might be able to check the work of the LLM and flag any misaligned responses.^[See also, Yuntao Bai, et al., "Constitutional AI," arXiv (2022) <https://arxiv.org/pdf/2212.08073v1>.] Some other method that could improve upon RLHF include debate (having LLMs crituque each other) and human-AI collaboration in training new LLMs.
+
+Alignment will remain an unsolvable problem. Beyond scaling, another difficulty includes the problem of evaluating models that are smarter than humans. WHere we map alignment difficult is a topic of some debate. Hubinger (2025) suggests that Chris Olah's diagram (@fig:olah) gets close
+
+![Chris Olah's mental model for alignment difficulty](04_Transition/images/olah.png){#fig:olah}
+
+<!-- Consider various possible timelines in which AGI advances, including the possible choices we could make along the way.  -->
+
+
+
+
 **Required Readings**
 
 - Rohin Shah et al. [An Approach to Technical AGI Safety adn Security](), (Google DeepMind: 2025), pp 70--78 (\S 6.1 in full)
@@ -227,6 +238,10 @@ anterograde amnesia
 Artificial General Intelligence (AGI)
 : "usually refers to systems that can match or exceed human performance across a broad range of cognitive tasks (definitions vary)."
 : *note bene*. Tyler Cowen argues that AGI is "already here" because by the original definition, most commercial models past the Turing Test.
+
+
+Misalignment
+: "There are two possible sources of misalignment: specification gaming, in which the designer-provided specification (e.g. reward signal) is flawed in a way that the designers did not foresee, and goal misgeneralisation, in which pursuit of an undesired goal arises in situations which are out of distribution compared to training" (Shah et al. 2025, 71).
 
 recursive self-improvement (RSI)
 : The theoretical scenerio in which an AI model can improve itself because it is smarter than the humans training it.

@@ -10,6 +10,8 @@ all : $(PDFS)
 %.md.pdf : %.md
 	pandoc $< \
 	--pdf-engine=xelatex \
+	--filter pandoc-crossref \
+	--citeproc \
 	-s -o $@  && open $@
 
 clean:
