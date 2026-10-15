@@ -212,7 +212,7 @@ As I mentioned in [the comments about the Founding (Unit 3 - authoritarianism)](
 
 Moreover, we need better definitions of human values. Globally, what people thing counts as moral varies widely. Even within the same country, values shift and develop organically around a handful of principles but with measurable variance.^[see, e.g., Johnathan Haidt, *The Righteous Mind: Why Good People are Divided by Politics and Religion* (Vintage: 2012)] 
 
-To the main, the transition to AGI involves various timelines and social choices
+To the main, the transition to AGI involves various timelines and social choices. 
 
 **Required Readings**
 
