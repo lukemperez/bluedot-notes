@@ -3,13 +3,13 @@ title: AGI Strategy Reading List
 author: Luke M. Perez
 date: 'last updated: \today'
 
+tableofcontents: true
+
 geometry: margin=1in
 fontsize: 12pt
 colorlinks: true
 linkcolor: blue
 ... 
-
-
 
 # Unit 1: The Race to AGI
 
@@ -123,3 +123,33 @@ linkcolor: blue
 - @ScenariosOurEconomic2026
 - @reedGoodhartSingularity2026
 - @krierMusingsRecursiveSelfImprovement2026
+
+# Unit 3: Pathways to Harm
+
+## Loss of Control
+
+### Required Readings
+
+- @2022AICouldDefeat
+- @stixLossControlPlaybook2025
+- @paulfchristiano2019WhatFailureLooks
+- @2021WhyAIAlignment
+
+### Recommended Readings
+
+- @katjagraceCounterargumentsBasicAI2022
+- @omohundroBasicAIDrives2008
+- @shahCoherenceArgumentsNot2018
+- @qiTrainingMisalignedReward
+- @quintinpopeMyObjectionsWere2023
+- @greenblattCurrentAIsSeem2026
+- @betleyEmergentMisalignmentNarrow2025
+- @hubingerSleeperAgentsTraining2024
+- @hendrycksNaturalSelectionFavors2023
+- @clymerHowAITakeover2025
+- @cotraSpecificCountermeasuresEasiest2022
+- @yudkowskyAGIRuinList2022
+- @rationalanimationsGoalMisgeneralizationHow2025
+- @bensingerClairlemonAllTheYudThanks2026
+
+## Authoritarianism
