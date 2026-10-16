@@ -5,6 +5,8 @@ date: 'last updated: \today'
 
 tableofcontents: true
 
+abstract: 'Collection of readings for the October 2026 AGI Strategy Intensive. Links do not include details such as when reading instructions recommened only a few pages for a specific section. Readings are structure around unit and section.'
+
 geometry: margin=1in
 fontsize: 12pt
 colorlinks: true
@@ -150,6 +152,81 @@ linkcolor: blue
 - @cotraSpecificCountermeasuresEasiest2022
 - @yudkowskyAGIRuinList2022
 - @rationalanimationsGoalMisgeneralizationHow2025
-- @bensingerClairlemonAllTheYudThanks2026
+- @bensingerRobBesingerResponds2026
 
 ## Authoritarianism
+
+### Required Reading
+
+- @hadsharExtremePowerConcentration2025
+
+### Recommended Reading
+
+- @imasWhatWillBe2026
+- @davidsonAIEnabledCoupsHow2025
+- @finnvedenAGILockin2022
+- @dragoIntelligenceCurse2025
+- @raymonddouglasGradualDisempowermentConcrete2025
+- @hackenburgAISystemsOutpersuade2026
+- @rationalanimationsCouldGlobalDictatorship2026
+
+### Biological Misuse
+
+### Required Readings
+
+- @esveltCivilizationThreateningBioweapons2026
+- @guerraBuildingDefenseinDepthBiosecurity2026
+
+### Optional Readings
+
+- @bakerleeMotherNatureBioterrorismpdf2021
+- @urbinaDualUseArtificialintelligencepowered2022
+- @moutonOperationalRisksAI2024
+
+# Unit 4: Strategies for the AGI Transition
+
+## Orienting to the Strategy 
+
+### Required Reading
+
+- @larsenAI2040Plan2026
+
+### Recommended Readings
+
+- @Library_alignmentforum
+
+## The Technical Challenge
+
+### Required Readings
+
+- @shahApproachTechnicalAGI2025
+- @evhub2025AlignmentRemainsHard
+- @2026TeachingClaudeWhy
+
+### Recommended Readings
+
+- @shlegerisCaseEnsuringThat2024
+- @TeachingClaudeWhy2026_extended
+- @clymerSafetyCasesHow2024
+- @drexlerOpenAgencyModel2023
+- @richard_ngoNgoYudkowskyAlignment2021
+- @AutomatedAlignmentResearchers2026
+- @yueh-hanAutomatedResearchersCan
+- @greenblattOverviewControlMeasures2025
+- @schoenStressTestingDeliberative2025
+- @RiskReportFebruary2026
+- @anthropicMappingMindLarge2024
+- @ameisenCircuitTracingRevealing2025
+- @NaturalLanguageAutoencoders2026
+- @anthropicToyModelMechanistic2025
+- @karvonenWouldThisChange2026
+- @casperEngineersInterpretabilitySequence2023
+- @hiltonBirdsEyeView2024
+- @hubingerConditioningPredictiveModels2023
+- @bengioSafetyHonestyDisinterested2026
+- @dalrympleGuaranteedSafeAI2024
+- @greyOpenTextbookAI2025
+- @hendrycksAISafetyEthics2024
+- @arenaARENAAISafety
+
+## Following the Transition
