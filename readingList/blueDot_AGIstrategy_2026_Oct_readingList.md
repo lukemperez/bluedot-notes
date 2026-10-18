@@ -230,3 +230,64 @@ linkcolor: blue
 - @arenaARENAAISafety
 
 ## Following the Transition
+
+### Required Readings 
+
+- @macaskillAreWeLiving2020
+- @larsenAI2040Plan2026
+
+### Optional Readings
+
+- @stixAIClosedDoors2025
+- @homewoodThirdpartyComplianceReviews2025
+- @tragerInternationalGovernanceCivilian2023
+- @greenblattBestApproachesMitigating2025
+- @davidsonMoralPublicGoods
+- @carlsmithAIAISafety2025
+- @anthropicExploringModelWelfare2025
+- @carlsmithStakesAIMoral2025
+- @gabrielArtificialIntelligenceValues2020
+- @gabrielArtificialIntelligenceValues2020
+- @lazarGoverningAlgorithmicCity2025
+
+## Pacing and Alternative Strategies
+
+### Required Readings 
+
+- @liflandCapabilityScalingStrategy2026
+- @liflandAI20402026
+- @PacingFrontier2026
+
+### Optional Readings
+
+- @BroadTimelines2026
+- @amodeiPolicyAIExponential2026
+- @karnofskyNearcastbasedDeploymentProblem2022
+- @okeefeChipsPeaceHow2024
+- @PauseGiantAI2023
+- @bourgonSummaryAIGovernance2025
+- @barnettTechnicalRequirementsHalting2025
+- @weilTortLawShould2024
+- @weilLimitsLiability2024
+- @douglasPacingFrontierAgenda2026
+- @alexanderPauseThoughtAI2023
+- @mendelJakeMendel99AlignmentProgress2026
+
+## Examining the Objections
+
+### Required Readings
+
+- @tomdavidsonPlanProblemDry2026
+- @ngoSelectiveOptimismCritique2026
+
+### Optional Readings
+
+- @kapoorAIRisksRequire
+- @buterinMyResponseAI2025
+- @zaidiInternationalControlPowerful2021
+- @carlsmithOthernessControlAge2024
+- @liflandHowPaceUS2026
+
+# Unit 5: Start Contributing
+
+No readings per se. This unit is mostly about making forward progress on AI safety. Some resources included Neel Nanda's [Become a person Actually Does Things](https://www.neelnanda.io/blog/become-a-person-who-actually-does-things), and Coefficient Giving's [Project Tailwind Initiative](https://coefficientgiving.org/tailwind/initiatives/). 80,000 Hours has posts on [AI policy in the US government](https://80000hours.org/career-reviews/ai-policy-us-government/) and [AI safety technical research](https://80000hours.org/career-reviews/ai-safety-technical-research/). These were just a few. 
